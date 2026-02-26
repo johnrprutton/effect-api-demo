@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "effect-api",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "node dist/index.js"
+  },
+  "packageManager": "pnpm@10.26.1",
+  "devDependencies": {
+    "@effect/language-service": "^0.76.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
+    "@types/node": "^22.19.12",
+    "prettier": "^3.8.1",
+    "ts-alias": "^0.0.7",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@effect/platform-node": "4.0.0-beta.15",
+    "effect": "4.0.0-beta.15"
+  }
+}
